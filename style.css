@@ -1,0 +1,115 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color: rgb(237, 231, 231);
+}
+header{
+    background-color:white;
+    height:100px;
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+}
+header h1{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.nav img
+{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    position: absolute;
+    left:1700px;
+ 
+}
+.parent
+{
+    width:50vw;
+    height:150px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
+    left:480px;
+    top:170px;
+    border-left: 5px solid blue;
+}
+.box1
+{
+    margin-left: 10px;
+}
+.parent p{
+        margin-left: 10px;
+        font-size: medium;
+}
+.parent2
+{
+    width:20vw;
+    height:150px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:350px;
+    left:730px;
+    border-radius: 5px;
+}
+.parent2 img
+{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    position: absolute;
+    left:140px;
+    top:-20px;
+}
+.name
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.button
+{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    height:15px;
+}
+.parent3
+{
+    width:50vw;
+    height:250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
+    left:480px;
+    top:600px;
+   border-radius: 5px;
+}
+.parent3 h1{
+    margin-left: 10px;
+}
+.parent3 p{
+    margin-left: 10px;
+    font-size: 25px;
+}
+.fa-sharp
+{
+    position:absolute;
+    left: 1740px;
+    top:990px;
+    font-size: 40px;
+}

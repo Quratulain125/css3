@@ -1,0 +1,131 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #b8b2b2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.box {
+  background: #fff;
+  padding: 30px;
+  width: 400px;
+  max-width: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-top: 3px solid yellow;
+  text-align: left;
+}
+
+.box h2 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.input-box {
+  position: relative;
+  margin: 12px 0;
+  width:100%;
+}
+
+.input-box input,
+.input-box select {
+  width: 100%;
+  padding: 10px 35px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+  font-size: 14px;
+}
+
+.input-box i {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+.form-inline {
+  display: flex;
+  /* display: flex; */
+  gap: 10px;
+  /* width:70%; */
+}
+
+.input-box select {
+ 
+  width: 100%;
+  padding: 10px 35px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  background-color: #fff;
+  box-sizing: border-box; 
+}
+
+
+.gender {
+  margin: 12px 0;
+  font-size: 14px;
+}
+
+.checkboxes {
+  margin: 15px 0;
+}
+
+.checkboxes label {
+  display: block;
+  margin-bottom: 8px; 
+  font-size: 14px;
+}
+
+.button {
+  width: 90%;
+  padding: 12px;
+  background: yellow;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background: #e6e600;
+}
+
+.footer {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  color: green;
+}
+
+.footer span {
+  color: blue;
+}
+
+@media (max-width: 500px) {
+  .form-container {
+    width: 100%;
+    padding: 20px;
+  }
+  .form-inline {
+    flex-direction: column;
+  }
+}
+
+  
